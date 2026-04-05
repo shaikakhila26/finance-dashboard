@@ -1,6 +1,6 @@
 import { useApp } from "../context/AppContext";
 
-export default function RoleToggle() {
+export default function Roletoggle() {
   const { role, setRole } = useApp();
 
   return (
