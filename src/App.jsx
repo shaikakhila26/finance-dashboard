@@ -10,18 +10,18 @@ export default function App() {
 
   return (
   <div className="flex h-screen bg-beige">
-    {/* SIDEBAR */}
+    
     <Sidebar setPage={setPage} />
 
-    {/* MAIN CONTENT */}
+    
     <div className="flex-1 flex flex-col overflow-hidden">
       
-      {/* HEADER */}
+      
       <div className="px-6 py-4 border-b bg-white">
         <Header />
       </div>
 
-      {/* PAGE CONTENT */}
+      
       <div className="flex-1 overflow-y-auto p-6 space-y-6">
         {page === "dashboard" && <Dashboard />}
         {page === "transactions" && <Transactions />}

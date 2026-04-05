@@ -9,7 +9,7 @@ export default function Sidebar({ setPage }) {
   return (
     <div className="w-64 bg-darkGreen text-white flex flex-col justify-between p-6">
       
-      {/* TOP */}
+      
       <div>
         <h1 className="text-2xl font-bold mb-8">Aura</h1>
 
@@ -28,7 +28,7 @@ export default function Sidebar({ setPage }) {
         </div>
       </div>
 
-      {/* BOTTOM */}
+      
       {role === "admin" && (
         <button
           onClick={() => setOpen(true)}

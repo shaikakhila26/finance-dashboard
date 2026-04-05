@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center">
       
-      {/* LEFT */}
+      
       <div>
         <h1 className="text-xl font-semibold text-darkGreen">
           Dashboard
@@ -14,7 +14,7 @@ export default function Header() {
         </p>
       </div>
 
-      {/* RIGHT */}
+      
       <div className="flex items-center gap-4">
         
         <input

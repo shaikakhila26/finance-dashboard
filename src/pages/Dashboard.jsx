@@ -29,14 +29,14 @@ export default function Dashboard() {
   return (
     <motion.div className="p-6 space-y-6"  initial={{ opacity: 0, y: 10 }}
     animate={{ opacity: 1, y: 0 }}>
-      {/* TOP CARDS */}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card title="Total Balance" value={balance} />
         <Card title="Income" value={income} />
         <Card title="Expenses" value={expenses} />
       </div>
 
-      {/* CHARTS */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-white p-6 rounded-2xl shadow-md">
           <h2 className="text-lg font-semibold mb-3">Balance Overview</h2>
