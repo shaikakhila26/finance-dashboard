@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-beige text-gray-800;
+}
+
+.dark {
+  background-color: #0A3323;
+  color:white;
+}
